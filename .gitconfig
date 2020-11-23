@@ -1,0 +1,19 @@
+[core]
+  filemode = false
+  editor = vim
+  excludefile = ~/.gitignore_global
+[user]
+  email = yutasasaki1219@gmail.com
+  name = Yuta Sasaki
+[merge]
+  tool = vimdiff
+[alias]
+  st = status
+  co = checkout
+  br = branch
+  up = rebase
+  ci = commit
+[color]
+  ui = auto
+[include]
+	path = ~/.gitconfig_shared
